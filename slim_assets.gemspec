@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = SlimAssets::VERSION
   s.authors     = ["David Padilla"]
   s.email       = ["david@padilla.cc"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/dabit/slim_assets"
   s.summary     = %q{Use Slim with Rails helpers in the asset pipeline}
   s.description = %q{Use Slim with Rails helpers in the asset pipeline}
 

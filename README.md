@@ -2,7 +2,7 @@
 
 *ALPHA*
 
-[![Build Status](https://secure.travis-ci.org/crowdint/slim_assets.png)](http://travis-ci.org/crowdint/slim_assets)
+[![Build Status](https://secure.travis-ci.org/dabit/slim_assets.png)](http://travis-ci.org/dabit/slim_assets)
 
 Writing Javascript templates for Backbone.js (or other frameworks) in your app? Would you like to use slim and the asset pipeline?
 

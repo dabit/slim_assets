@@ -2,6 +2,9 @@ ENV["RAILS_ENV"] = "test"
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
+require 'fileutils'
+FileUtils.mkdir_p("./spec/rails_app/tmp/cache/")
+
 require 'rails_app/config/environment'
 require 'slim_assets'
 require 'ejs'
@@ -18,5 +21,4 @@ ActiveRecord::Schema.define(:version => 0) do
     t.string "title"
   end
 end
-
 

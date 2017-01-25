@@ -4,6 +4,8 @@ This is a fork of the wonderful slim_assets (https://github.com/crowdint/slim_as
 
 Use this to write Backbone.js or AngularJS templates in Slim and let the Rails asset pipeline take over.
 
+[![Build Status](https://secure.travis-ci.org/dabit/slim_assets.png)](http://travis-ci.org/dabit/slim_assets)
+
 ## Installing
 
 Add this to your `Gemfile`
@@ -48,8 +50,3 @@ div.items data-ng-repeat="item in items" {{ item }}
 
 This gem is heavily based on their [haml_assets gem](https://github.com/infbio/haml_assets)
 
-# About the Author
-
-[Crowd Interactive](http://www.crowdint.com) is a web design and development company that happens to work in Colima, Mexico.
-We specialize in building and growing online retail stores. We don’t work with everyone – just companies we believe in. Call us today to see if there’s a fit.
-Find more info [here](http://www.crowdint.com)!

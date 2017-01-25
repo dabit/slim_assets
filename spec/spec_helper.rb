@@ -7,6 +7,7 @@ require 'slim_assets'
 require 'ejs'
 require 'rspec/rails'
 require 'active_record'
+require 'fileutils'
 
 Rails.cache.clear
 
@@ -19,4 +20,4 @@ ActiveRecord::Schema.define(:version => 0) do
   end
 end
 
-
+FileUtils.mkdir_p("spec/rails_app/tmp/cache/")

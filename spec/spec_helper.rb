@@ -2,12 +2,14 @@ ENV["RAILS_ENV"] = "test"
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
+require 'fileutils'
+FileUtils.mkdir_p("./spec/rails_app/tmp/cache/")
+
 require 'rails_app/config/environment'
 require 'slim_assets'
 require 'ejs'
 require 'rspec/rails'
 require 'active_record'
-require 'fileutils'
 
 Rails.cache.clear
 
@@ -20,4 +22,3 @@ ActiveRecord::Schema.define(:version => 0) do
   end
 end
 
-FileUtils.mkdir_p("spec/rails_app/tmp/cache/")

@@ -5,7 +5,7 @@ end
 
 describe SlimAssets do
   it "should have the proper format" do
-    RailsApp::Application.assets['link_to.jst.ejs.slim'].to_s.should match /<h1><div class=\"text\">Render works</div></h1>/
+    RailsApp::Application.assets['link_to.jst.ejs.slim'].to_s.should match /<h1><div class=\"text\">Render works<\/div><\/h1>/
   end
 
   it "should use rails helpers" do
